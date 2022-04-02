@@ -6,6 +6,11 @@ body {
     font-family: Segoe UI Light, Segoe UI, Arial;
     font-size: 22px;
     color: #fff;
+    -ms-user-select:none;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
     font-weight: 400
 }
 
