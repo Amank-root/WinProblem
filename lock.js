@@ -23,7 +23,8 @@ var fullbody = document.body; // Make the body go full screen.
 requestFullScreen(fullbody);
 
 function dash(){
-    let main = document.getElementsByClassName("main");
-    main.style.bg = "black";
+    let main = document.getElementById("main");
+    document.body.style.background = "black";
+    main.style.display = "none";
 }
 setTimeout(dash, 30000)
